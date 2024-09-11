@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pro_headers",
+  "info": {
+    "singularName": "pro-header",
+    "pluralName": "pro-headers",
+    "displayName": "proHeader"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "desc": {
+      "type": "text"
+    }
+  }
+}

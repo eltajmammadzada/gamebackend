@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_section3s",
+  "info": {
+    "singularName": "home-section3",
+    "pluralName": "home-section3s",
+    "displayName": "HomeSection3",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "photo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

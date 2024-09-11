@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tendings",
+  "info": {
+    "singularName": "tending",
+    "pluralName": "tendings",
+    "displayName": "hometending",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "size": {
+      "type": "integer",
+      "required": true,
+      "min": 0,
+      "max": 100
+    },
+    "sekil": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

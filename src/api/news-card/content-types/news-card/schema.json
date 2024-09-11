@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_cards",
+  "info": {
+    "singularName": "news-card",
+    "pluralName": "news-cards",
+    "displayName": "NewsCard",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "date": {
+      "type": "date"
+    },
+    "author": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
